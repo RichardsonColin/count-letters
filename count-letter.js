@@ -10,7 +10,7 @@ function countLetters(string){
       outputObject[noSpaceString[index]] += 1;
     }
   }
-  console.log(outputObject);
+  return outputObject;
 }
 
-countLetters("lighthouse in the house");
+console.log(countLetters("lighthouse in the house"));
